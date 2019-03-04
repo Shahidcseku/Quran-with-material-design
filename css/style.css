@@ -1,0 +1,31 @@
+.mdl-cell-a{
+  box-sizing: border-box;
+  background-color: #F0F8FF;
+  font-size: 36px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Amiri', serif;
+  direction: rtl;
+  font-family: Ubuntu;
+  line-height: 1.4;
+  color: black;
+}
+.mdl-cell-b{
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'SolaimanLipi', sans-serif;
+  line-height: 1.4;
+  color: black;
+}
+.mdl-grid:first-of-type .mdl-cell {
+}
+.active{
+  color: red;
+}
