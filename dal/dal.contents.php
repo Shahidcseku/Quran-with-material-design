@@ -1,5 +1,5 @@
 <?php
-include_once($_SERVER['DOCUMENT_ROOT'].'/Quran/includes/utility.php');
+include_once('includes/utility.php');
 
 
 class DALContents

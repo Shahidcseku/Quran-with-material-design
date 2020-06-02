@@ -1,5 +1,5 @@
 <?php 
-include($_SERVER['DOCUMENT_ROOT'].'/Quran/dal/dal.contents.php');
+include('dal/dal.contents.php');
 
 class BLLContents
 {

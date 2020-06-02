@@ -41,7 +41,7 @@
           	{
           		$SuraID = $_GET['SuraID'];
           	}
-			include_once($_SERVER['DOCUMENT_ROOT'].'/Quran/bll/bll.contents.php');
+			include_once('bll/bll.contents.php');
 			$bllContents = new BLLContents;
 			echo $bllContents->printContents($SuraID);
           ?>
@@ -51,7 +51,7 @@
         <div class="page-content">
            <div class="mdl-grid">
            		<?php
-					include($_SERVER['DOCUMENT_ROOT'].'/Quran/dal/dal.quran.php');
+					include('dal/dal.quran.php');
            			$SuraID = 1;
            			if(isset($_GET['SuraID']))
            			{
